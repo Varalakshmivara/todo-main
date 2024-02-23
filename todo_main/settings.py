@@ -81,14 +81,14 @@ WSGI_APPLICATION = 'todo_main.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-"""DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-"""
-DATABASES = {
+
+"""DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db_lakshmi',
@@ -98,7 +98,7 @@ DATABASES = {
         'PORT': '3306',  # Default MySQL port
     }
 }
-
+"""
         
 
 
