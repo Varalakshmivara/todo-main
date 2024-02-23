@@ -81,25 +81,13 @@ WSGI_APPLICATION = 'todo_main.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-"""DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-"""
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django',
-        'USER': 'varalakshmi',
-        'PASSWORD': 'Lakshmi2001@@',
-        'HOST': 'varalakshmi123.mysql.database.azure.com',  # Use 'localhost' if MySQL is running on the host machine
-        'PORT': '3306',  # Default MySQL port
-    }
-}
 
-        
 
 
 
