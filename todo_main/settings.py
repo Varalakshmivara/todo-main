@@ -91,10 +91,10 @@ WSGI_APPLICATION = 'todo_main.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_lakshmi',
-        'USER': 'lakshmi',
-        'PASSWORD': 'pass12345',
-        'HOST': '127.0.0.1',  # Use 'localhost' if MySQL is running on the host machine
+        'NAME': 'django',
+        'USER': 'varalakshmi',
+        'PASSWORD': 'Lakshmi2001@@',
+        'HOST': 'varalakshmi123.mysql.database.azure.com',  # Use 'localhost' if MySQL is running on the host machine
         'PORT': '3306',  # Default MySQL port
     }
 }
